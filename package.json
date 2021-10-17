@@ -1,7 +1,7 @@
 {
   "name": "@jenniesh/eslint-config-vue",
-  "version": "1.0.0",
-  "description": "ESLint and Prettier Config for Vue2 from jennie",
+  "version": "1.1.0",
+  "description": "ESLint and Prettier Config for Vue2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,6 +14,9 @@
     "type": "git",
     "url": "https://github.com/JennieSH/eslint-config-vue"
   },
+  "bugs": {
+    "url": "https://github.com/JennieSH/eslint-config-vue-/issues"
+  },
   "keywords": [
     "style guide",
     "lint",
@@ -21,10 +24,12 @@
     "vue2",
     "eslint"
   ],
+  "dependencies": {
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "@vue/eslint-config-prettier": "^6.0.0"
+  },
   "peerDependencies": {
     "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/eslint-config-airbnb": "^5.0.2",
-    "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
@@ -34,8 +39,6 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/eslint-config-airbnb": "^5.0.2",
-    "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",

@@ -24,7 +24,7 @@ Make sure that the dependencies of your configuration package may also be instal
 // .eslintrc.js
 
 {
-  "extends": [ "@jenniesh/eslint-config-vue" ]
+  extends: [ "@jenniesh/eslint-config-vue" ]
 }
 ```
 
